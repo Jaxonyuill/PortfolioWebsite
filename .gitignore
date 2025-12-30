@@ -9,6 +9,10 @@ IMG_7941.jpg
 *.ico
 *.svg
 
+# PDF files
+*.pdf
+Jaxon_s_resume-3.pdf
+
 # Common development files
 .DS_Store
 Thumbs.db
