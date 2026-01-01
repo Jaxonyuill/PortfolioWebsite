@@ -118,7 +118,7 @@ PortfolioWebsite/
 ├── README.md           # Project documentation
 ├── .gitignore          # Git ignore rules
 ├── IMG_7941.jpg        # Profile picture (gitignored)
-└── Jaxon_s_resume-3.pdf # Resume PDF (gitignored)
+└── Jaxon_s_resume-4.pdf # Resume PDF (gitignored)
 ```
 
 ## Browser Compatibility
