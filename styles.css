@@ -522,6 +522,10 @@ section:nth-child(even) .contact-links a:hover {
     color: var(--primary-light);
 }
 
+section:nth-child(even) .project-status {
+    color: var(--text-muted-dark);
+}
+
 .section-title {
     text-align: center;
     margin-bottom: 3rem;
@@ -657,6 +661,13 @@ section:nth-child(even) .project-content {
 
 /* Dark mode specific project status styling */
 [data-theme="dark"] .project-status {
+    background-color: #374151;
+    border-left: 4px solid var(--primary-color);
+    color: var(--text-light);
+}
+
+/* Dark mode specific project status styling for even sections */
+[data-theme="dark"] section:nth-child(even) .project-status {
     background-color: #374151;
     border-left: 4px solid var(--primary-color);
     color: var(--text-light);
