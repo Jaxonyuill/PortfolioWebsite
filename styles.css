@@ -655,6 +655,13 @@ section:nth-child(even) .project-content {
     border-left: 4px solid var(--primary-color);
 }
 
+/* Dark mode specific project status styling */
+[data-theme="dark"] .project-status {
+    background-color: #374151;
+    border-left: 4px solid var(--primary-color);
+    color: var(--text-light);
+}
+
 .project-links {
     margin-top: 1rem;
     text-align: center;
