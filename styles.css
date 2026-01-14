@@ -526,6 +526,11 @@ section:nth-child(even) .project-status {
     color: var(--text-muted-dark) !important;
 }
 
+/* Dark mode override for even sections */
+[data-theme="dark"] section:nth-child(even) .project-status {
+    color: #ffffff !important;
+}
+
 .section-title {
     text-align: center;
     margin-bottom: 3rem;
