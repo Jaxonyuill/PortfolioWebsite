@@ -523,7 +523,7 @@ section:nth-child(even) .contact-links a:hover {
 }
 
 section:nth-child(even) .project-status {
-    color: var(--text-muted-dark);
+    color: var(--text-muted-dark) !important;
 }
 
 .section-title {
@@ -661,16 +661,16 @@ section:nth-child(even) .project-content {
 
 /* Dark mode specific project status styling */
 [data-theme="dark"] .project-status {
-    background-color: #374151;
-    border-left: 4px solid var(--primary-color);
-    color: var(--text-light);
+    background-color: #374151 !important;
+    border-left: 4px solid var(--primary-color) !important;
+    color: #ffffff !important;
 }
 
 /* Dark mode specific project status styling for even sections */
 [data-theme="dark"] section:nth-child(even) .project-status {
-    background-color: #374151;
-    border-left: 4px solid var(--primary-color);
-    color: var(--text-light);
+    background-color: #374151 !important;
+    border-left: 4px solid var(--primary-color) !important;
+    color: #ffffff !important;
 }
 
 .project-links {
